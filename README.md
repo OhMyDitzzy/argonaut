@@ -27,6 +27,11 @@
 
 ---
 
+> [!WARNING]  
+> This repository will be moved to CodeBerg.
+> Development will be more active there, visit:
+> https://codeberg.org/OhMyDitzzy/argonaut
+
 ## Overview
 
 A flexible and powerful command-line argument parser for Zig, inspired by the [Go argparse](https://github.com/akamensky/argparse) library. This library provides a clean and intuitive API for building complex CLI applications with support for subcommands, various argument types, validation, and more.
