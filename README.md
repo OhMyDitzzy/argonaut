@@ -29,7 +29,7 @@
 
 ## Overview
 
-A flexible and powerful command-line argument parser for Zig, inspired by the Go argparse library. This library provides a clean and intuitive API for building complex CLI applications with support for subcommands, various argument types, validation, and more.
+A flexible and powerful command-line argument parser for Zig, inspired by the [Go argparse](https://github.com/akamensky/argparse) library. This library provides a clean and intuitive API for building complex CLI applications with support for subcommands, various argument types, validation, and more.
 
 ## Features
 
@@ -112,6 +112,7 @@ zig build run-basic -- --name John --age 25 -v
 zig build run-subcommands -- commit -m "Initial commit" -a
 zig build run-advanced -- -vvv -p 8080 -f file1.txt -f file2.txt input.txt
 ```
+You can see all the available examples in the [examples](examples) folder.
 
 ## Comparison with Go argparse
 
