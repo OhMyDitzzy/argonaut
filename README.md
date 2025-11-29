@@ -108,27 +108,11 @@ The library includes several examples:
 Build and run examples:
 
 ```bash
-zig build run-basic -- --name John --age 25 -v
-zig build run-subcommands -- commit -m "Initial commit" -a
-zig build run-advanced -- -vvv -p 8080 -f file1.txt -f file2.txt input.txt
+zig build example-basic -- --name John --age 25 -v
+zig build example-subcommands -- commit -m "Initial commit" -a
+zig build example-advanced -- -vvv -p 8080 -f file1.txt -f file2.txt input.txt
 ```
 You can see all the available examples in the [examples](examples) folder.
-
-## Comparison with Go argparse
-
-This library closely follows the design of the Go argparse library while adapting to Zig's idioms:
-
-- Similar API structure and naming conventions
-- Support for all major argument types
-- Subcommand functionality
-- Automatic help generation
-- Validation support
-
-Key differences:
-- Uses Zig's error handling instead of Go's error return pattern
-- Leverages Zig's compile-time features where appropriate
-- Uses Zig's standard library types (ArrayList, etc.)
-- Memory management through explicit allocators
 
 ## Contributing
 

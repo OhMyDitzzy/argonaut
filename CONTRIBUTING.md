@@ -170,9 +170,9 @@ zig build
 zig build test
 
 # Run examples
-zig build run-basic
-zig build run-subcommands
-zig build run-advanced
+zig build example-basic
+zig build example-subcommands
+zig build example-advanced
 ```
 
 ### 4. Make Your Changes
